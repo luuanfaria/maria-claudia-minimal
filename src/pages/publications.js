@@ -40,8 +40,8 @@ const StyledContentWrapper = styled(ContentWrapper)`
   }
 `
 
-const Privacy = ({ data }) => {
-  const { body, frontmatter } = data.privacy.edges[0].node
+const Publications = ({ data }) => {
+  const { body, frontmatter } = data.publications.edges[0].node
   const { title, seoTitle, useSeoTitleSuffix } = frontmatter
   const withSuffix = useSeoTitleSuffix === "true"
   return (
@@ -60,9 +60,9 @@ const Privacy = ({ data }) => {
   )
 }
 
-Privacy.propTypes = {
+Publications.propTypes = {
   data: PropTypes.shape({
-    privacy: PropTypes.shape({
+    publications: PropTypes.shape({
       edges: PropTypes.arrayOf(
         PropTypes.shape({
           node: PropTypes.shape({
@@ -75,11 +75,11 @@ Privacy.propTypes = {
   }).isRequired,
 }
 
-export default Privacy
+export default Publications
 
 export const pageQuery = graphql`
   {
-    privacy: allMdx(filter: { fileAbsolutePath: { regex: "/privacy/" } }) {
+    publications: allMdx(filter: { fileAbsolutePath: { regex: "/publications/" } }) {
       edges {
         node {
           body

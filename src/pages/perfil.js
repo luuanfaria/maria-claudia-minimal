@@ -40,8 +40,8 @@ const StyledContentWrapper = styled(ContentWrapper)`
   }
 `
 
-const Imprint = ({ data }) => {
-  const { body, frontmatter } = data.imprint.edges[0].node
+const Perfil = ({ data }) => {
+  const { body, frontmatter } = data.perfil.edges[0].node
   const { title, seoTitle, useSeoTitleSuffix } = frontmatter
   const withSuffix = useSeoTitleSuffix === "true"
   return (
@@ -60,9 +60,9 @@ const Imprint = ({ data }) => {
   )
 }
 
-Imprint.propTypes = {
+Perfil.propTypes = {
   data: PropTypes.shape({
-    imprint: PropTypes.shape({
+    perfil: PropTypes.shape({
       edges: PropTypes.arrayOf(
         PropTypes.shape({
           node: PropTypes.shape({
@@ -75,11 +75,11 @@ Imprint.propTypes = {
   }).isRequired,
 }
 
-export default Imprint
+export default Perfil
 
 export const pageQuery = graphql`
   {
-    imprint: allMdx(filter: { fileAbsolutePath: { regex: "/imprint/" } }) {
+    perfil: allMdx(filter: { fileAbsolutePath: { regex: "/perfil/" } }) {
       edges {
         node {
           body

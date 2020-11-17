@@ -8,7 +8,6 @@ import { motion } from "framer-motion"
 
 import { useOnScreen } from "../../hooks"
 import ContentWrapper from "../../styles/ContentWrapper"
-import Underlining from "../../styles/Underlining"
 import Button from "../../styles/Button"
 import Icon from "../../components/icons"
 
@@ -285,28 +284,7 @@ const Projects = ({ content }) => {
                     </div>
                     <div className="title">{frontmatter.title}</div>
                     <MDXRenderer>{body}</MDXRenderer>
-                    <div className="tags">
-                      {frontmatter.tags.map(tag => (
-                        <Underlining
-                          key={tag}
-                          color="secondary"
-                          hoverColor="secondary"
-                        >
-                          {tag}
-                        </Underlining>
-                      ))}
-                    </div>
                     <div className="links">
-                      {frontmatter.github && (
-                        <a
-                          href={frontmatter.github}
-                          target="_blank"
-                          rel="nofollow noopener noreferrer"
-                          aria-label="External Link"
-                        >
-                          <Icon name="github" color="#888888" />
-                        </a>
-                      )}
                       {frontmatter.external && (
                         <a
                           href={frontmatter.external}

@@ -1,15 +1,15 @@
 module.exports = {
 
-    author: "@konstantinmuenster",
-    siteTitle: "Gatsby Starter Portfolio Minimal",
-    siteShortTitle: "Gatsby", // Used as logo text in header, footer, and splash screen
-    siteDescription: "A modern one-page portfolio with a clean yet expressive design.",
-    siteUrl: "https://gatsby-starter-portfolio-minimal.netlify.app/",
+    author: "https://github.com/luuanfaria",
+    siteTitle: "Maria Claudia",
+    siteShortTitle: "Maria Claudia", // Used as logo text in header, footer, and splash screen
+    siteDescription: "Site profissional Maria Claudia, Professora Adjunto.",
+    siteUrl: "https://maria-claudia-minimal.netlify.app/",
     siteLanguage: "en_US",
     siteIcon: "content/favicon.png", // Relative to gatsby-config file
-    seoTitleSuffix: "Portfolio Minimal", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
+    seoTitleSuffix: "Maria Claudia", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
 
-    splashScreen: false, // Set this to true if you want to use the splash screen
+    splashScreen: true, // Set this to true if you want to use the splash screen
 
     // You can create your own Medium feed with this rss to json converter: https://rss2json.com/
     // To access your Medium RSS feed, just replace this url with your username: https://medium.com/feed/@{yourname}
@@ -20,52 +20,40 @@ module.exports = {
     // Medium, GitHub, LinkedIn, XING, Behance
     socialMedia: [
         {
-            name: "Linkedin",
-            url: "https://www.linkedin.com/in/konstantin-muenster/"
+            name: "LinkedIn",
+            url: "https://www.linkedin.com/in/maria-claudia-castro-52741a18/"
         },
         {
-            name: "Medium",
-            url: "https://konstantinmuenster.medium.com/"
-        },
-        {
-            name: "Github",
-            url: "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal"
-        },
-        {
-            name: "Behance",
-            url: "https://www.behance.net/konstanmnster"
+            name: "Lattes",
+            url: "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4796270A6"
         },
     ],
   
     navLinks: {
-        menu: [
+        menu: [            
             {
-                name: "Articles",
-                url: "/#articles",
-            },
-            {
-                name: "About Me",
+                name: "Sobre",
                 url: "/#about",
             },
             {
-                name: "Features",
+                name: "Projetos",
                 url: "/#projects",
             },
+            {
+                name: "Publicações",
+                url: "/publications",
+            }
         ],
         button: {
-            name: "Contact",
+            name: "Contato",
             url: "/#contact",
         }
     },
 
     footerLinks: [
         {
-            name: "Privacy",
-            url: "/privacy"
-        },
-        {
-            name: "Imprint",
-            url: "/imprint"
+            name: "Perfil",
+            url: "/perfil"
         }
     ]
 }

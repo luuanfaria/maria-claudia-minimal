@@ -21,9 +21,6 @@ export default (ref, threshold = 0.25) => {
     if (element) {
       setTimeout(() => observer.observe(element), 3500)
     }
-    return () => {
-      observer.unobserve(element)
-    }
   }, [ref, threshold])
   return isIntersecting
 }

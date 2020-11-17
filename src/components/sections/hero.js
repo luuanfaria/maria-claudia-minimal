@@ -1,7 +1,6 @@
 import React, { useEffect, useContext } from "react"
 import PropTypes from "prop-types"
 import styled from "styled-components"
-import Img from "gatsby-image"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import { motion, useAnimation } from "framer-motion"
 
@@ -108,9 +107,6 @@ const Hero = ({ content }) => {
           <h1 className="title">
             <div className="greetings">
               {frontmatter.greetings}
-              <motion.div animate={eControls} style={{ originX: 0.7, originY: 0.7 }}>
-                <Img className="emoji" fluid={frontmatter.icon.childImageSharp.fluid} />
-              </motion.div>
             </div>
             {frontmatter.title}
           </h1>
