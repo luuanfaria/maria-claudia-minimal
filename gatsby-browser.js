@@ -9,3 +9,4 @@ export const onClientEntry = async () => {
     await import(`intersection-observer`)
   }
 }
+

@@ -5,7 +5,7 @@ module.exports = {
     siteShortTitle: "Maria Claudia", // Used as logo text in header, footer, and splash screen
     siteDescription: "Site profissional Maria Claudia, Professora Adjunto.",
     siteUrl: "https://maria-claudia-minimal.netlify.app/",
-    siteLanguage: "en_US",
+    siteLanguage: "pt_BR",
     siteIcon: "content/favicon.png", // Relative to gatsby-config file
     seoTitleSuffix: "Maria Claudia", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
 
@@ -13,8 +13,8 @@ module.exports = {
 
     // You can create your own Medium feed with this rss to json converter: https://rss2json.com/
     // To access your Medium RSS feed, just replace this url with your username: https://medium.com/feed/@{yourname}
-    mediumRssFeed: "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40konstantinmuenster",
-    shownArticles: 3,
+    mediumRssFeed: "",
+    shownArticles: 0,
     
     // There are icons available for the following platforms: 
     // Medium, GitHub, LinkedIn, XING, Behance
