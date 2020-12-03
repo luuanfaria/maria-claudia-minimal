@@ -33,6 +33,7 @@ const StyledContentWrapper = styled(ContentWrapper)`
       display: flex;
       justify-content: flex-start;
       align-items: center;
+      font-size: 2.45rem;
     }
     .emoji {
       margin-left: 0.75rem;
