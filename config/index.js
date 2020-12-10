@@ -54,6 +54,10 @@ module.exports = {
         {
             name: "Perfil",
             url: "/perfil"
+        },
+        {
+            name: "Orientações",
+            url: "/orientation"
         }
     ]
 }
