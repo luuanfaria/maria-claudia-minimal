@@ -42,6 +42,10 @@ module.exports = {
             {
                 name: "Publicações",
                 url: "/publications",
+            },
+            {
+                name: "Orientações",
+                url: "/orientation"
             }
         ],
         button: {
@@ -54,10 +58,6 @@ module.exports = {
         {
             name: "Perfil",
             url: "/perfil"
-        },
-        {
-            name: "Orientações",
-            url: "/orientation"
         }
     ]
 }
