@@ -35,6 +35,14 @@ Voce pode editar o conteudo para cada secao da pagina que esta sendo exibido ou 
     |-- publications
 ```
 
+### Editar conteudos markedown `.mdx`
+
+1. **Siga os tutoriais abaixo**
+
+[Guia Basico de Markdown](https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open)  
+[Markdown Tutorial](https://github.com/luong-komorebi/Markdown-Tutorial/blob/master/README_pt-BR.md)
+
+
 ### Para Desenvolvedores
 
 1. **Install the Gatsby CLI.**
