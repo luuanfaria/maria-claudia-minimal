@@ -1,23 +1,23 @@
 # Website - Maria Claudia
 
-## Edit Content
+## Editar Conteudo
 
-You most likely want to add your own content.
+Para edicao e adiciao do conteudo, siga os passos abaixo
 
-### Edit configuration
+### Editar configuracoes
 
-First, you want to edit the config file which stores the site's configuration (e.g. title, description) and social profiles.
+Edicao de Social Medias e Titulos do Site
 
 ```
 |-- config
     |-- index.js
 ```
 
-Navigate to the `index.js` file in the config folder, edit the configuration, save it, that's it!
+Navega ate o arquivo `index.js` dentro da pasta config, edite e salve!
 
-### Edit page content
+### Editar conteudos da pagina
 
-Next, you can edit the content for each section you want to be displayed. If you want to add image on folder just upload file
+Voce pode editar o conteudo para cada secao da pagina que esta sendo exibido ou adicionar um conteudo novo, siga o mesmo contexto dos conteudos para adicao de conteudo.
 
 ```
 |-- content
@@ -34,3 +34,23 @@ Next, you can edit the content for each section you want to be displayed. If you
     |-- perfil
     |-- publications
 ```
+
+### Para Desenvolvedores
+
+1. **Install the Gatsby CLI.**
+
+   ```
+   npm install -g gatsby-cli
+
+   ```
+
+2. **Start the site in `develop` mode.**
+
+   ```
+   cd maria-claudia-minimal
+   gatsby develop
+   ```
+
+4. **Open the source code and start editing!**
+
+---
