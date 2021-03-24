@@ -13,7 +13,7 @@ Edicao de Social Medias e Titulos do Site
     |-- index.js
 ```
 
-Navega ate o arquivo `index.js` dentro da pasta config, edite e salve!
+Navegue ate o arquivo `index.js` dentro da pasta config, edite e salve!
 
 ### Editar conteudos da pagina
 
